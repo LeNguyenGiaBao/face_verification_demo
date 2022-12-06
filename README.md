@@ -1,5 +1,9 @@
 # face_verification_demo
 
+<div>
+<a href="https://colab.research.google.com/github/LeNguyenGiaBao/face_verification_demo/blob/master/face_verification_flow.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+</div>
+
 How does the computer know 2 pictures are the same person?
 
 ### Instructions:

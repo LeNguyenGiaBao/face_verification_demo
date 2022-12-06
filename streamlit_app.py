@@ -9,9 +9,7 @@ IMAGE_HEIGHT_DEST = 250
 MODEL_NAME = "buffalo_l"
 THRESHOLD = 0.36786744
 
-face_model = FaceAnalysis(
-    name=MODEL_NAME, root="./", allowed_modules=["detection", "recognition"]
-)
+face_model = FaceAnalysis(name=MODEL_NAME, allowed_modules=["detection", "recognition"])
 face_model.prepare(ctx_id=-1, det_size=(640, 640))
 
 st.set_page_config(page_title="Face Verification", page_icon="🧐", layout="wide")

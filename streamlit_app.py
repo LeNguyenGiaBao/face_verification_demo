@@ -264,7 +264,7 @@ center_block.code(
     author={Deng, Jiankang and Guo, Jia and Niannan, Xue and Zafeiriou, Stefanos},
     booktitle={CVPR},
     year={2019}
-    }"""
+}"""
 )
 center_block.write(
     "[Cosine similarity](https://en.wikipedia.org/wiki/Cosine_similarity)"
@@ -277,7 +277,7 @@ center_block.code(
     year = "2022",
     url = "https://en.wikipedia.org/w/index.php?title=Cosine_similarity&oldid=1123118417",
     note = "[Online; accessed 6-December-2022]"
-    }"""
+}"""
 )
 center_block.write(
     "[Cosine Similarity Metric Learning for Face Verification](https://link.springer.com/chapter/10.1007/978-3-642-19309-5_55)"
@@ -293,5 +293,11 @@ center_block.code(
     series    = "Lecture notes in computer science",
     year      =  2011,
     address   = "Berlin, Heidelberg"
-    }"""
+}"""
+)
+
+center_block.header("Author")
+center_block.markdown(
+    open("./templates/footer.html").read(),
+    unsafe_allow_html=True,
 )

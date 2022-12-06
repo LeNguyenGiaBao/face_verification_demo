@@ -1,0 +1,37 @@
+ul {
+  font-size: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 30px;
+}
+
+#MainMenu {
+  visibility: hidden;
+}
+footer {
+  visibility: hidden;
+}
+header {
+  visibility: hidden;
+}
+
+div.stButton > button:first-child {
+  color: #16a2cb;
+  backgroud-color: #00cccc;
+  height: 3em;
+  display: block;
+  width: 100%;
+}
